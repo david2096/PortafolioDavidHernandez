@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Diseño (CSS) de la estructura principal de la pagina Parte Azul*/
+body{
+    background-color: rgb(175, 174, 174));
+    
+    
+}
+/* Diseño (CSS) de la primer barra Parte Gris*/
+nav{
+    
+    width: 100%;
+    background-color: black;
+
+/*Alineando el texto de la barra*/
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+
+}
+
+nav img{
+    height: 100px;
+    padding-left: 175px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+   
+}
+/* Diseño (CSS) de la seccion para el diseño de las letras en la parte gris*/
+
+    
+ 
+
+/* Diseño (CSS) del id central rectangulo blanco*/  
+#home-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background-image:url("/assets/img/background1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    width: 100%;
+    padding: 15px;
+    
+}
+
+
+#home-hero  div h1{
+    font-size: 90px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-hero div p{
+    font-size: 60px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#home-hero img{
+    width: 600px;
+}
+
+
+
+
+
+    
+}
+
+
